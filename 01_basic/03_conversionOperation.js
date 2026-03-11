@@ -28,4 +28,30 @@ let stringNumber = String(someNumber);
 console.log(someNumber); // 33 treat as string
 console.log(typeof stringNumber); // string ==> type is string data type
 
-// 
+// *********************** Operations ****************************
+let value = 3
+let negValue = -value;
+console.log(negValue)  // -3
+// console.log(2+2); // 4
+// console.log(2-2);  // 0
+// console.log(2*2); // 4
+// console.log(2**3); // 8 trated as powe 2 power 3 
+// console.log(2%3); //2 
+
+let str1 ="Hello"
+let str2 = "Abhishek"
+let str3 = str1 +str2
+console.log(str3) // HelloAbhisek
+
+console.log("1" +2);  // 12
+console.log(1 + "2") //12
+console.log("1" + 2 + 2) //122
+ console.log(1 + 2 + "2")// 32
+ 
+
+ console.log(+true) // 1
+ console.log(+"") // 0  -> empyt string valie is o that is why 0
+
+ let gameCounter =100
+ ++gameCounter;
+ console.log(gameCounter);
