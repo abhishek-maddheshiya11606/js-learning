@@ -52,7 +52,7 @@ String      =   string
 funtion     =   function  ==> we called it as object function
 // console.log(typeof null) // type will be Object
 // console.log(typeof myFunction) // function
-// console.log(typeof bigNumber)
+// console.log(typeof bigNumber)  // undefined
 */
 console.log(typeof bigNumber); // undefined
 console.log(typeof heros) // object
@@ -61,3 +61,16 @@ console.log(typeof myObj) // object
 
 // Note: all non primitive tpes are called function  
 // and only function datatypes is called function Object
+
+// ====================================
+/*
+1.all primitive data types goes into stack memory
+    a. whatever we declare the variable so we get the copy of that value
+2. all non premitive data types goes into Heap memory 
+    a. here we get the original value
+
+*/
+
+
+
+
