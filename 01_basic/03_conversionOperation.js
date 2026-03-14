@@ -19,7 +19,7 @@ let isLoggedIn = 1
 let booleanIsLoogedIn = Boolean(isLoggedIn);
 console.log(booleanIsLoogedIn);
 // 1 => true; 0 -> false
-// "" => falase
+// "" => false
 // "abhi" => true
 
 // String Conversion
@@ -54,4 +54,4 @@ console.log("1" + 2 + 2) //122
 
  let gameCounter =100
  ++gameCounter;
- console.log(gameCounter);
+ console.log(gameCounter); // 101
